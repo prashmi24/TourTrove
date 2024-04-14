@@ -16,7 +16,7 @@ export default function Hero() {
                 </div>
             </div>
             <div>
-                <img src="/src/assets/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" alt="hero-img"/>
+                <img src="/assets/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" alt="hero-img"/>
             </div>
         </div>
     );
