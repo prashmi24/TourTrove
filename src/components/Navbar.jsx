@@ -8,12 +8,11 @@ export default function Navbar() {
         setDropdown(!dropdown);
     };
     return (
-        <nav className="bg-gray-100 py-4">
+        <nav className="bg-transpernt py-4">
             <div className="container mx-auto flex justify-between items-center">
                 <div>
-                    <div className="flex items-center">
-                        <img src="" alt="logo" className="h-8 mr-2" />
-                        <span className="text-2xl font-bold text-gray-800">TourTrove</span>
+                    <div >
+                        <img src="/assets/logo.png" alt="logo" className="logo" />
                     </div>
                 </div>
                 <ul className="hidden md:flex space-x-6 text-gray-800">
@@ -23,15 +22,15 @@ export default function Navbar() {
                     <li><a href="#" className="hover:text-blue-600">Pages</a></li>
                     <li><a href="#" className="hover:text-blue-600">Blog</a></li>
                     <li><a href="#" className="hover:text-blue-600">Contact</a></li>
-                    <li><button className="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Get Exploration</button></li>
+                    <li><button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 mr-2.5">Get Exploration</button></li>
                 </ul>
                 <div className="md:hidden">
                     {dropdown ? (
-                        <div onClick={showDropdown} className="text-gray-800 cursor-pointer">
+                        <div onClick={showDropdown} className="text-gray-800 cursor-pointer hover:text-blue-600">
                             <MdClose className="text-3xl" />
                         </div>
                     ) : (
-                        <div onClick={showDropdown} className="text-gray-800 cursor-pointer">
+                        <div onClick={showDropdown} className="text-gray-800 cursor-pointer hover:text-blue-600">
                             <HiMenuAlt3 className="text-3xl" />
                         </div>
                     )}

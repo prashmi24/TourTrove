@@ -27,7 +27,7 @@ export default function Discover() {
                     <img src="your-image-url" alt="Travel Image" className="rounded-lg shadow-lg"/>
                 </div>
             </section>
-            <section className="bg-blue-500 py-12">
+            <section className="testimonial py-12">
                 <div className="container mx-auto text-white">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         <div>

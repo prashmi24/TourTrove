@@ -18,7 +18,7 @@ function App() {
     <Featured />
     <Packages />
     <Popular/>
-    <Discover />
+    {/* <Discover /> */}
     <Blog />
     <Footer/>
     </>
