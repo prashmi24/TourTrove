@@ -33,9 +33,9 @@ export default function Blog() {
                         <h2 className="text-3xl font-semibold text-gray-800">Our Latest Blogs</h2>
                     </div>
                     <div className="flex gap-12 w-100">
-                        <Card image="/assets/jakub-dziubak-iOHJKJqO6E0-unsplash.jpg" text="Foodie's Guide to Global Cuisine" />
-                        <Card image="/assets/fabian-blank-pElSkGRA2NU-unsplash.jpg" text="How to Travel on a Budget?" />
-                        <Card image="/assets/suhyeon-choi-m4uUDTrcJeY-unsplash.jpg" text="The Ultimate Guide to Solo Travel" />
+                        <Card image="/src/assets/jakub-dziubak-iOHJKJqO6E0-unsplash.jpg" text="Foodie's Guide to Global Cuisine" />
+                        <Card image="/src/assets/fabian-blank-pElSkGRA2NU-unsplash.jpg" text="How to Travel on a Budget?" />
+                        <Card image="/src/assets/suhyeon-choi-m4uUDTrcJeY-unsplash.jpg" text="The Ultimate Guide to Solo Travel" />
                     </div>
                 </div>
             </section>
