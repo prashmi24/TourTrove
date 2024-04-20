@@ -71,7 +71,7 @@ export default function Featured() {
                     <p className="text-2xl font-semibold text-gray-800">Special Offers</p>
                     <h2 className="text-4xl font-bold text-gray-900">Don't miss out on our exclusive deals and discounts!</h2>
                 </span>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 cursor-pointer">
                     <Card amount="2400" country="Italy" image="/assets/damiano-baschiera-hFXZ5cNfkOk-unsplash.jpg" packages="2"/>
                     <Card amount="980" country="Mexico" image="/assets/pedro-lastra-8gJqRaAaKx4-unsplash.jpg" packages="4" />
                     <Card amount="1200" country="France" image="/assets/anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg" packages="3"/>

@@ -22,9 +22,9 @@ export default function Discover() {
                             <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg">Read More</button>
                         </div>
                     </div>
-                    <img src="your-image-url" alt="Travel Image" className="rounded-lg shadow-lg"/>
-                    <img src="your-image-url" alt="Travel Image" className="rounded-lg shadow-lg"/>
-                    <img src="your-image-url" alt="Travel Image" className="rounded-lg shadow-lg"/>
+                    <img src="/public/assets/aerial-view-koh-hong-island-krabi-thailand.jpg" alt="Travel Image" className=" rounded-lg shadow-lg max-w-xl max-h-full object-cover"/>
+                    <img src="/public/assets/aleksandar-popovski-H9TP5uAQyyY-unsplash.jpg" alt="Travel Image" className="mx-4 rounded-lg shadow-lg max-w-xl max-h-full object-cover"/>
+                    <img src="/public/assets/anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg" alt="Travel Image" className="mx-4 rounded-lg shadow-lg max-w-xl max-h-full object-cover"/>
                 </div>
             </section>
             <section className="testimonial py-12">
@@ -36,8 +36,8 @@ export default function Discover() {
                             <p className="text-lg mb-4">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quia hic nam itaque corrupti perspiciatis perferendis similique dicta quas dolorem quae fuga doloribus tempore, dolores, voluptate illo voluptas tempora eligendi officia quod non! Aperiam vero reprehenderit tenetur, ea dolorem assumenda hic provident nam. Dolores, impedit. Numquam sed laboriosam excepturi itaque?
                             </p>
-                            <span className="text-lg">Shahjahan</span>
-                            <span className="text-lg">Ruler</span>
+                            <span className="text-lg">Jack</span>
+                            <span className="text-lg">Millerr</span>
                             <div className="mt-4">
                                 {[...Array(5)].map((_, index) => (
                                     <HiStar size={24} key={index} className="text-yellow-400"/>
@@ -45,7 +45,7 @@ export default function Discover() {
                             </div>
                         </div>
                         <div>
-                            <img src="your-testimonial-image-url" alt="Testimonial" className="rounded-lg shadow-lg"/>
+                            <img src="" alt="Testimonial" className="rounded-lg shadow-lg"/>
                         </div>
                     </div>
                 </div>

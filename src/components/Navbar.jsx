@@ -8,7 +8,7 @@ export default function Navbar() {
         setDropdown(!dropdown);
     };
     return (
-        <nav className="bg-transpernt py-4">
+        <nav className="bg-transparent py-4">
             <div className="container mx-auto flex justify-between items-center">
                 <div>
                     <div >

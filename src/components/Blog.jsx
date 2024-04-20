@@ -28,9 +28,9 @@ export default function Blog() {
         <div className="bg-gray-100 min-h-screen">
             <section className="container mx-auto py-12">
                 <div className="max-w-4xl mx-auto">
-                    <div className="mb-8">
-                        <p className="text-sm text-blue-500 uppercase font-semibold">Blog Post</p>
-                        <h2 className="text-3xl font-semibold text-gray-800">Our Latest Blogs</h2>
+                    <div className="text-center mb-8">
+                        <p className="text-2xl font-semibold text-gray-800">Blog Post</p>
+                        <h2 className="text-4xl font-bold text-gray-900">Our Latest Blogs</h2>
                     </div>
                     <div className="flex gap-12 w-100">
                         <Card image="/assets/jakub-dziubak-iOHJKJqO6E0-unsplash.jpg" text="Foodie's Guide to Global Cuisine" />
@@ -39,14 +39,7 @@ export default function Blog() {
                     </div>
                 </div>
             </section>
-            {/* <section className="bg-gray-200 py-12">
-                <div className="container mx-auto flex justify-center space-x-8">
-                    <img className="w-32 h-32 object-cover rounded-full" src="/assets/aerial-view-koh-hong-island-krabi-thailand.jpg" alt="" />
-                    <img className="w-32 h-32 object-cover rounded-full" src="/assets/architecture-outdoors-blend-historic-mediterranean-city-generative-ai.jpg" alt="" />
-                    <img className="w-32 h-32 object-cover rounded-full" src="/assets/breathtaking-shot-colosseum-amphitheatre-located-rome-italy.jpg" alt="" />
-                    <img className="w-32 h-32 object-cover rounded-full" src="/assets/leh-ladak-flag-faith-mountain.jpg" alt="" />
-                </div>
-            </section> */}
+
             <section className="container mx-auto py-12">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-3xl font-semibold text-gray-800 mb-4">Sign up for our Newsletter</h2>

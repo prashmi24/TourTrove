@@ -33,7 +33,7 @@ export default function Popular({ images }) {
             } else {
                 container.scrollLeft = 0;
             }
-        }, 3000);
+        }, 2000);
         return () => clearInterval(scrollInterval);
     }, []);
 
@@ -60,26 +60,24 @@ export default function Popular({ images }) {
                         <p className="text-2xl font-semibold text-gray-800">Our Gallery</p>
                         <h2 className="text-4xl font-bold text-gray-900">Capture Unforgettable Moments</h2>
                     </div>
-                    <div ref={containerRef} className="flex overflow-x-auto w-full h-96 items-center justify-center">
+                    <div ref={containerRef} className="flex overflow-x-auto w-full h-96 items-center justify-center scroll-smooth">
                         {images && images.map((image, id) => (<img key={id} src={image} alt="" className="mx-4  max-w-full max-h-full  object-cover rounded-lg" />))}
-                        <img src="/assets/igor-oliyarnik-Uu5aXBI1oLk-unsplash.jpg" alt="Gallery Image 1" className="mx-4  max-w-full max-h-full  object-cover rounded-lg"  />
-                        <img src="/assets/neon-joi-MZvbxsymork-unsplash.jpg" alt="Gallery Image 2" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/k-mitch-hodge-UdHP53gnxE8-unsplash.jpg" alt="Gallery Image 3" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/luqman-hariz-TuiEkw4D3v4-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/neon-joi-MZvbxsymork-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/mostafa-meraji-kw9JwNt3quI-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/axp-photography-4TqZYhCmOGw-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/kashish-lamba-DdY1L_iUK2M-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/ryutaro-uozumi-U-HDKOZ6PnE-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/laurentiu-isopescu-9ua73fUyWHY-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/juan-gomez-tgrwlTZXEtw-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/mike-swigunski-ueBmz9K8zTg-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/ishan-seefromthesky-rj8fMHNPXbg-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/juan-gomez-tgrwlTZXEtw-unsplash.jpg" alt="Gallery Image 1" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/mike-swigunski-ueBmz9K8zTg-unsplash.jpg" alt="Gallery Image 2" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/ishan-seefromthesky-rj8fMHNPXbg-unsplash.jpg" alt="Gallery Image 3" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
                         <img src="/assets/antonio-gross-OIzy-UubqrE-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/mihai-moisa-Djtc1T38-GY-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/rafael-k-streit-XwGh-Dngypc-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/la-so-vk4vjTNVrTg-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
-                        <img src="/assets/arnel-hasanovic-fVwqaAqzj2g-unsplash.jpg" alt="Gallery Image 4" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/mihai-moisa-Djtc1T38-GY-unsplash.jpg" alt="Gallery Image 5" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/rafael-k-streit-XwGh-Dngypc-unsplash.jpg" alt="Gallery Image 6" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/arnel-hasanovic-fVwqaAqzj2g-unsplash.jpg" alt="Gallery Image 8" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/igor-oliyarnik-Uu5aXBI1oLk-unsplash.jpg" alt="Gallery Image 9" className="mx-4  max-w-full max-h-full  object-cover rounded-lg"  />
+                        <img src="/assets/neon-joi-MZvbxsymork-unsplash.jpg" alt="Gallery Image 10" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/k-mitch-hodge-UdHP53gnxE8-unsplash.jpg" alt="Gallery Image 11" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/luqman-hariz-TuiEkw4D3v4-unsplash.jpg" alt="Gallery Image 12" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/neon-joi-MZvbxsymork-unsplash.jpg" alt="Gallery Image 13" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/axp-photography-4TqZYhCmOGw-unsplash.jpg" alt="Gallery Image 15" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/ryutaro-uozumi-U-HDKOZ6PnE-unsplash.jpg" alt="Gallery Image 16" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                        <img src="/assets/laurentiu-isopescu-9ua73fUyWHY-unsplash.jpg" alt="Gallery Image 17" className="mx-4   max-w-full max-h-full  object-cover rounded-lg" />
+                       
                     </div>
                 </div>
             </section>

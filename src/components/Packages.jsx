@@ -31,12 +31,12 @@ export default function Packages() {
 
     return (
         <div className="bg-gray-50">
-            <div className="container mx-auto py-12">
+            <div className="container mx-auto py-12 ">
                 <div className="text-center">
                     <p className="text-2xl font-semibold text-gray-800">Journey to Paradise</p>
                     <h2 className="text-4xl font-bold text-gray-900">Our Best-Selling Destinations Await</h2>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8 ml-4 mr-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8 ml-4 mr-4 cursor-pointer">
                     <Card image="/assets/yu-kato-cddaZDt6uRw-unsplash.jpg" text="Asian Explorer Expedition" destination="Tokyo, Kyoto, Bangkok" review="4.9/5" price="$4,500 per person (12 days, cultural tour)"/>
                     <Card image="/assets/aleksandar-popovski-H9TP5uAQyyY-unsplash.jpg" text="Adventure in the Andes" destination="Peru (Machu Picchu)" review="4.7/5" price=" $2,000 per person (5 days, guided trek)"/>
                     <Card image="/assets/florian-wehde-WBGjg0DsO_g-unsplash.jpg" text="European Grand Tour" destination="Paris, Rome, Barcelona" review="4.8/5" price="$5,000 per person (10 days, guided tour)"/>
